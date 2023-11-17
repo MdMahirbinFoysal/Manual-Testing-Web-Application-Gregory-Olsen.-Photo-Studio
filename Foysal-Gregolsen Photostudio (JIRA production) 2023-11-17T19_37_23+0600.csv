@@ -1,0 +1,783 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Component/s,Due Date,Votes,Description,Environment,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Custom field ((backup) External issue ID - old),Custom field ((backup) Integrator),Custom field ((backup) Issue Occurred On),Custom field ((backup) Issue Status Comment),Custom field ((backup) Platform),Custom field ((backup) Root of the problem),Custom field ((backup) Test Type),Custom field ((backup) Test case priority),Custom field ((backup) Type of Issue),Custom field ((backup) Work Type),"Custom field ((tmp, del) Build/s)","Custom field ((tmp, del?) TestCase Link)",Custom field (Account),Custom field (Actual Result),Custom field (Affected Test Cases),Custom field (Affects Build/s),Custom field (Asana link),Custom field (BT Jira ID),Custom field (BT Project),Custom field (Basecamp Link),Custom field (Billable Category),Custom field (Browser),Custom field (Browser / Environment),Custom field (Browser Version),Custom field (Business Unit),Custom field (CQ ID),Custom field (CS Project Coordinator),Custom field (Case Study necessity postpone date),Custom field (Client Device),Custom field (Client Device Version),Custom field (Cloud Version),Custom field (Core issue),Custom field (Created By),Custom field (End Date),Custom field (Epic Link),Custom field (Error Type),Custom field (Expected Result),Custom field (Found by),Custom field (Handled By (SGW Tester)),Custom field (Hardware Version),Custom field (Impact),Custom field (Impacted Areas),Custom field (Importance),Custom field (Iteration),Custom field (Level),Custom field (New Original Estimate),Custom field (Next Step),Custom field (Number of candidates),Custom field (Occurrence),Custom field (Original story points),Custom field (Parent Link),Custom field (Partner Contact),Custom field (Payment Status),Custom field (Planned Efforts (FTE)),Custom field (Priority Level),Custom field (Proxy Required),Custom field (RFX Coordinator),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Regional Coordinator),Custom field (Related Cases),Custom field (Reported Version),Custom field (Router),Custom field (SF Case No),Custom field (SGW Jira ID),Custom field (Severity/Importance),Custom field (Solution),Custom field (Start Date),Custom field (Supervisor),Custom field (TVS ID),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Team Role),Custom field (TestLink case),Custom field (Time Category),Custom field (Type of engagement),Custom field (URL),Custom field (Wiki Link),Custom field (Wires Link),Custom field (ZendeskID),Custom field (Обеспечение оборудованием),Comment
+Home: The Home page is not responsive when the resolution is changed Page title and navigation menu is not displayed,QATC-810289,3477334,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 2:53 PM,14/Jul/23 2:53 PM,17/Nov/23 7:36 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to ""[https://photostudio.demohoster.com/] ""
+ # Log in to this system
+ # Minimize and maximize the page from left to right and right to left
+ # Observed the Result
+
+*Actual Result:* The Home page is not responsive when the resolution is changed Page title and navigation menu is not displayed
+
+*Expected Result:* The Home page should be responsive when the resolution is ** changed. Users can see all the page content in every customized resolution.
+
+*Additional Information:* This issue is same for the Work, Sessions, Connect, Module.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 2:53 PM;m.foysal;Responsive page.mp4;https://jira.a1qa.com/secure/attachment/2384633/Responsive+page.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfzhb:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Favicon: Favicon is displayed as NO icon instead of GO when the web link is open,QATC-810152,3477104,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 4:03 AM,14/Jul/23 4:03 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/] ""
+ # Log in to this system
+ # Observed the Favicon
+
+*Actual Result:* Favicon is displayed as NO icon instead of GO when the web link is open
+
+*Expected Result:* The favicon should be displayed GO icon.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 4:03 AM;m.foysal;Favicon.jpg;https://jira.a1qa.com/secure/attachment/2384428/Favicon.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfy33:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+Header: Search bar: The search button does not show any search result list when input is given and the button is clicked ,QATC-810148,3477098,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 3:57 AM,14/Jul/23 3:57 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/] ""
+ # Log in to this system
+ # Input what you want to search for 
+ # Click on search button
+ # Observed the result
+
+*Actual Result:* The search button does not show any search result list when input is given and the button is clicked 
+
+*Expected Result:* The search button will display a matching list or open the search page that is given in the text field. If nothing similar is found, a message will be displayed that matches nothing with your input data.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 3:57 AM;m.foysal;Search history.mp4;https://jira.a1qa.com/secure/attachment/2384422/Search+history.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfy1r:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Header: The page navigation menu is not in the correct order in the header,QATC-810124,3477069,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 2:47 AM,14/Jul/23 2:47 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/] ""
+ # Log in to this system
+ # Observed the header
+
+*Actual Result:* The page navigation menu is not in the correct order in the header
+
+*Expected Result:* The page navigation menu should be correct order in the header as per requirements.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 2:47 AM;m.foysal;Header order 1.jpg;https://jira.a1qa.com/secure/attachment/2384390/Header+order+1.jpg","14/Jul/23 2:47 AM;m.foysal;Header order 2.jpg;https://jira.a1qa.com/secure/attachment/2384389/Header+order+2.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfxvb:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Header: Search bar: The search button is active even though the search text field is empty,QATC-810120,3477065,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 2:41 AM,14/Jul/23 2:41 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/""
+ # Log in to this system
+ # Click on search bar
+ # Leave it empty
+ # Click on the search icon button
+ # observed the result
+
+*Actual Result:* The search button is active even though the search text field is empty.
+
+*Expected Result:* The search button should be deactivated when the text field is empty. A pop-up message should appear please enter something in the text field.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 2:40 AM;m.foysal;Search bar reload.mp4;https://jira.a1qa.com/secure/attachment/2384383/Search+bar+reload.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfxuf:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+"Work: Portrait: Preview image displayed previous, next, and close buttons in another language instead of English when clicking on it",QATC-810112,3477055,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 2:30 AM,14/Jul/23 2:30 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"Steps to reproduce:
+ # Go to ""[https://photostudio.demohoster.com/work/portrait] ""
+ # Log in to this system
+ # Click on Work
+ # Click on portrait 
+ # Click on any portrait image
+ # Observed the image
+
+Actual Result: Preview image displayed previous, next, and close buttons in another language instead of English when clicking on it.
+
+Expected Result: The displayed image previous, next, and close buttons should be in English language.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 2:29 AM;m.foysal;Another language.mp4;https://jira.a1qa.com/secure/attachment/2384369/Another+language.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfxs7:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+Work: Portrait: Redirects to page 2 instead of page 4 when the next button is clicked on the third page,QATC-810091,3477034,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 1:53 AM,14/Jul/23 1:53 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/work/portrait/2] ""
+ # Log in to this system
+ # Click on Work then click on portrait
+ # Click on page 3 the click on the next button
+ # Observed the Result
+
+*Actual Result:* Redirects to page 2 instead of page 4 when the next button is clicked on the third page.
+
+*Expected Result:* The next button should redirect to page 4 when clicked on it.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 1:52 AM;m.foysal;Page is not changing in correct order.mp4;https://jira.a1qa.com/secure/attachment/2384343/Page+is+not+changing+in+correct+order.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfxnj:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Sessions: Mini Studio Sessions: Book Sessions: Contact Information: The checkbox saves this information for the next time unable be ""checked"" when clicking on it",QATC-810081,3477014,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 1:27 AM,14/Jul/23 1:27 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/sessions/book/info] ""
+ # Log in to this system
+ # Click on Sessions then Click on book now button under the Mini studio sessions
+ # Click on Book button on the Book sessions page
+ # Filled the contact form with valid data 
+ # Click on unchecked save this information for the next time check box
+ # Observed the result
+
+*Actual Result:* The checkbox saves this information for the next time unable be ""checked"" when clicking on it.
+
+*Expected Result:* The checkbox will be checked when clicking on it.
+
+*Additional information:*  This issue is same for the Mini Out Door sessions and Standard Sessions Contact information forms.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 1:24 AM;m.foysal;Save information.jpg;https://jira.a1qa.com/secure/attachment/2384315/Save+information.jpg","14/Jul/23 1:27 AM;m.foysal;Saved information.mp4;https://jira.a1qa.com/secure/attachment/2384314/Saved+information.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfxj3:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Sessions: Standard Session : Book Sessions: The total price is calculated as $250 instead of $650 when no additional subject is chosen,QATC-810066,3476997,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 12:57 AM,14/Jul/23 12:57 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/sessions/book/3] ""
+ # Log in to this system
+ # Click on Sessions 
+ # Click on book now under the standard sessions
+ # Select additional  subject none is selected by default
+ # Click on Book button
+ # Observed the total price on the Book information page
+ # Back to the previous page and select 1 additional subjects
+ # Observed the total price
+
+*Actual Result:* The total price is calculated as $250 instead of $650 when no additional subject is chosen.
+
+*Expected Result:* The total price should be calculated at $650 when no additional values are selected.
+
+*Additional Information:* When the additional subject is chosen also the calculation is wrong. Because the start price is wrong. Total price calculation rule:
+
+Total price= start price +55*<selected value from the dropdown>
+
+For Standard sessions  $650+$55*<selected value from the dropdown>","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 12:56 AM;m.foysal;Standard total price calculation.mp4;https://jira.a1qa.com/secure/attachment/2384291/Standard+total+price+calculation.mp4","14/Jul/23 12:53 AM;m.foysal;starting price 650.jpg;https://jira.a1qa.com/secure/attachment/2384292/starting+price+650.jpg","14/Jul/23 12:52 AM;m.foysal;Total price.jpg;https://jira.a1qa.com/secure/attachment/2384293/Total+price.jpg",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfxfb:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Sessions: Standard Sessions: Book Sessions: Additional subjects dropdown list is displayed 7 values instead of 10 when clicking on the dropdown menu,QATC-810054,3476985,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 12:32 AM,14/Jul/23 12:32 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/sessions/book/3] ""
+ # Log in to this system
+ # Click on Sessions then click on book now button under the Standard sessions
+ # Click on the addition subjects dropdown list
+ # Observed the result
+
+*Actual Result:* Additional subjects dropdown list is displayed 7 values instead of 10 when clicking on the dropdown menu.
+
+*Expected Result:* Additional subjects dropdown list should be displayed 1 to 10 values when clicking on it.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 12:29 AM;m.foysal;Additional drop down list.jpg;https://jira.a1qa.com/secure/attachment/2384274/Additional+drop+down+list.jpg","14/Jul/23 12:32 AM;m.foysal;Additional values.mp4;https://jira.a1qa.com/secure/attachment/2384273/Additional+values.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfxcn:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Sessions: Standard Sessions: The Starting price is displayed as $250 instead of $650 on the Book Sessions Page,QATC-810046,3476976,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,14/Jul/23 12:17 AM,14/Jul/23 12:17 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/sessions/book/3] ""
+ # Log in to this system
+ # Click on Sessions and then Click on book now button under the standard sessions
+ # Observed the Book sessions page
+ # Starting price is displayed as $250
+
+*Actual Result:* The Starting price is displayed as $250 instead of $650 on the Book Sessions Page.
+
+*Expected Result:* The starting price should be $650 for the standard sessions.
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"14/Jul/23 12:16 AM;m.foysal;Standard main price.jpg;https://jira.a1qa.com/secure/attachment/2384259/Standard+main+price.jpg","14/Jul/23 12:15 AM;m.foysal;Standard price in worng.jpg;https://jira.a1qa.com/secure/attachment/2384260/Standard+price+in+worng.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfxan:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Sessions: Mini Studio: Book Sessions: Book information: The payment page is not open when the continue payment method button is clicked it collapses the current page,QATC-810014,3476933,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 11:14 PM,13/Jul/23 11:14 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go  to "" [https://photostudio.demohoster.com/sessions/book/info] ""
+ # Log in to this system
+ # Click on sessions and then click on book now button under the mini studio sessions
+ # Click on Book button on the Book Sessions page
+ # Fill the form with valid data 
+ # Click on the Continue to payment method
+ # Observed the result
+
+*Actual Result:* The payment page is not open when the continue payment method button is clicked it collapses the current page.
+
+*Expected Result:* The payment page should open when clicking the continue to payment method button after filling out the form. The payment page contains 3 text field. two drop-down lists one in the month and another in year. There should be a Confirm button.
+
+*Additional Information:* This issue is the same for Mini Outdoor sessions and Standard sessions Contact information form.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 11:14 PM;m.foysal;Payment page.jpg;https://jira.a1qa.com/secure/attachment/2384213/Payment+page.jpg","13/Jul/23 11:12 PM;m.foysal;Payment page.mp4;https://jira.a1qa.com/secure/attachment/2384214/Payment+page.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfx13:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Sessions: Mini Studio: Book Session: Book Information: The phone number text field accepts alpha-type characters instead of numeric type,QATC-809998,3476911,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 10:39 PM,13/Jul/23 10:39 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/sessions/book/info"" 
+ # Log in to this system
+ # Click on Sessions and the click on book now button under the mini studio seassions
+ # Click on the Book button on the Book sessions page
+ # Fill the form with valid data without Phone text field
+ # Fill this  field with alpha-type characters
+ # Click on Continue to payment method
+ # Observed the result
+
+*Actual Result:* The phone number text field accepts alpha-type characters instead of numeric type.
+
+*Expected Result:* The phone text field only accepts Numeric type characters.
+
+*Additional Information:* The same issue is for the Mini Outdoor Sessions and Standard Sessions Contact information forms Phone text field.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 10:38 PM;m.foysal;Phone alpha type.mp4;https://jira.a1qa.com/secure/attachment/2384190/Phone+alpha+type.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfww7:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Sessions: Mini Studio Sessions: Book Sessions: Book Information: All the text fields in the contact form accept invalid data,QATC-809979,3476861,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 9:38 PM,13/Jul/23 9:38 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/sessions/book/info] ""
+ # Log in to this system
+ # Click on Sessions then click on book now book now button under the Mini Studio Sessions
+ # Then click on Book button on the Book Sessions page
+ # Fill the contact form with all invalid data
+ # Click on the Continue to payment method button 
+ # Observed the result
+
+*Actual Result:* All the text fields in the contact form accept invalid data
+
+*Expected Result:* All the text fields in the contact form should accept valid data. Like valid First name, Last name, address, country, City, and Phone number.
+
+*Additional Information:* This issue is the same for Mini Outdoor Sessions and Standard Sessions Contact information forms.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 9:37 PM;m.foysal;field accept invalid data.jpg;https://jira.a1qa.com/secure/attachment/2384157/field+accept+invalid+data.jpg","13/Jul/23 9:36 PM;m.foysal;invalid data accept.mp4;https://jira.a1qa.com/secure/attachment/2384158/invalid+data+accept.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfwlb:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Sessions: Mini Studio Session: Book Session: Book Information: The Company text field required a company name when the Continue to Payment Method button is clicked,QATC-809972,3476824,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 8:58 PM,13/Jul/23 8:58 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to ""[https://photostudio.demohoster.com/sessions/book/info] ""
+ # Log in to this system
+ # Click on Sessions then click on book now button under the mini studio sessions
+ # Click on Book button
+ # Fill the contact information form with valid data without the Company text field
+ # Observed the result
+ # The field is required some data
+
+*Actual Result:* The Company text field required a company name when the Continue to Payment Method button is clicked
+
+*Expected Result:* The Company text field should be optional. Users can fill it out or leave it as usual.
+
+*Additional Information:* This issue is same for Mini Outdoor Sessions and Standard Sessions Contact information form.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 8:58 PM;m.foysal;company required.mp4;https://jira.a1qa.com/secure/attachment/2384130/company+required.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfwd3:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Sessions: Mini Studio Session: Book Sessions: Book Information: Checkbox keep me up to date on news is checked by default in the form,QATC-809956,3476740,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 8:09 PM,13/Jul/23 8:09 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/sessions/book/info] ""
+ # Log in to this system
+ # Click Sessions and click on book now button under the mini studio sessions 
+ # Click on Book button on the Book session page
+ # Observed the contact information form
+ # Checkbox is checked by default
+
+*Actual Result:* Checkbox keep me up to date on news is checked by default in the form
+
+*Expected Result:* The checkbox keep me up to date on news should be unchecked by default in the form.
+
+*Additional Information:* This issue is the same for the Mini Outdoor Sessions and Standard Session contact information pages.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 8:09 PM;m.foysal;Check box.mp4;https://jira.a1qa.com/secure/attachment/2384094/Check+box.mp4","13/Jul/23 8:08 PM;m.foysal;Checkbox.jpg;https://jira.a1qa.com/secure/attachment/2384095/Checkbox.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfvun:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Sessions: Mini Studio Session: Book Sessions: The footer is missing in the book session and book information page  ,QATC-809947,3476711,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 7:49 PM,13/Jul/23 7:49 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/sessions/book] ""
+ # Log in to this system
+ # Click on Sessions and then click on Book now under the mini studio sessions
+ # Observed the Book sessions page
+ # Click on Book button 
+ # Observed the Book information page
+ # Footer is missing these two pages
+
+*Actual result:* The footer is missing in the book session and book information page  
+
+*Expected Result:* The footer should be displayed at the bottom of the two pages.
+
+*Additional Information:* This issue is the same for Mini Outdoor sessions and Standard Sessions , Book session and Book information page.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 7:48 PM;m.foysal;Sessions footer missing.mp4;https://jira.a1qa.com/secure/attachment/2384073/Sessions+footer+missing.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfvo7:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Sessions: Mini Studio Session: Book Session: $5 is deducted from the total price when additional subjects 1 is selected and a session is booked ,QATC-809922,3476633,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 6:29 PM,13/Jul/23 6:29 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"Steps to reproduce:
+ # Go to "" [https://photostudio.demohoster.com/sessions/book] ""
+ # Log in to this system
+ # Click on Session and then click on mini studio session book now button
+ # Select additional subjects 1
+ # click on the Book button
+ # Observed the Total price
+ # $5 is deducted from the total price
+
+*Actual Result:* $5 is deducted from the total price when additional subjects 1 is selected and a session is booked 
+
+*Expected Result:* When an additional subject is selected the price of an additional subject $55 will be added to the total price. For Mini studio session starting price $250 additional subject 1 =$55. The total price will be $250+$55=$305
+
+*Addition Information:* This issue is the same for 2 to 10 additional subjects. when 2 additional subjects are selected deduct $10, 7 additional subjects deduct $35, and 10 additional subjects $50 is deducted from the total price.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 6:27 PM;m.foysal;$5 is deduct from all additional subject.mp4;https://jira.a1qa.com/secure/attachment/2384004/%245+is+deduct+from+all+additional+subject.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfv7r:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Sessions: Mini Studio Session: Book Session: Unable to select the additional subjects 6 in the  mini studio book session,QATC-809911,3476591,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 5:55 PM,13/Jul/23 5:55 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/sessions/book] ""
+ # Log in to this systems
+ # Click on Sessions
+ # Click on book now in the mini studio session
+ # Try to select Additional Subjects 6  in the mini studio session
+ # Unable to select the 6 additional subjects
+
+*Actual Result:* Unable to select the additional subjects 6 in the  mini studio book session.
+
+*Expected Result:* The user can select additional subject 6 and book a session.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 5:55 PM;m.foysal;unable to select 6.mp4;https://jira.a1qa.com/secure/attachment/2383985/unable+to+select+6.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfuyf:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Connect: Clients: The last name empty field error message overlaps with the previously input last name list when clicking on send message button,QATC-809896,3476523,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 5:17 PM,13/Jul/23 5:17 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/contact] ""
+ # Login to this system
+ # Click on Connect and then Click on Contact
+ # Filled the form with valid data 
+ # Click on send message button
+ # Reload the contact page 
+ # Repeat 4 to 6 steps two more time
+ # Again filled the form without the last name field
+ # Click on the Send message button
+ # Observed the result
+
+*Actual Result:* The last name empty field error message overlaps with the previously input last name list when clicking on send message button.
+
+*Expected result:* The last name empty field error message should not overlap with the previously input last name list. It should be displayed clearly. The message can be displayed top or right side of the text field.
+
+*Additional Information:* This issue is also present in *Email* and Subject text fields.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) **",,,,,,,,Leads and Reporter only,"13/Jul/23 5:17 PM;m.foysal;Error message overlapse.mp4;https://jira.a1qa.com/secure/attachment/2383948/Error+message+overlapse.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfujj:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Connect: Contact: Filling the form with valid data when clicking the ""send message button""  the current page collapse instead of a successful message",QATC-809744,3476190,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 4:05 AM,13/Jul/23 4:05 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/contact] ""
+ # Log in to this system
+ # Click on Connect and then click on Contact
+ # Fill the form with valid data 
+ # Click the send message button
+ # Observed the result
+
+*Actual Result:* Filling the form with valid data when clicking the ""send message button""  the current page collapse instead of a successful message.
+
+*Expected Result:* Filling the form with valid data when clicking the send message button the message should be sent to this email [gregolsen.ph@gmail.com.|mailto:gregolsen.ph@gmail.com.] ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 4:04 AM;m.foysal;message email.jpg;https://jira.a1qa.com/secure/attachment/2383642/message+email.jpg","13/Jul/23 4:05 AM;m.foysal;message email.mp4;https://jira.a1qa.com/secure/attachment/2383641/message+email.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfsif:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Connect: Contact: Email field contains any alpha characters instead of a valid email address no error message is displayed when the send message button is clicked,QATC-809738,3476184,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 3:41 AM,13/Jul/23 3:41 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/contact] ""
+ # Log in to this system
+ # Click on Connect and then click on Contact
+ # Fill all the text fields in the contact form with specific data
+ # Input an invalid email or alpha-type characters in the email field
+ # Click on the Send message button
+ # Observed the result
+
+*Actual Result:* Email field contains any alpha characters instead of a valid email address no error message is displayed when the send message button is clicked
+
+*Expected Result:* The Email field contains only a valid email address. when entering an invalid email address and clicking on the send message button an error message should be appears under the email field ""Valid email is required"".","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 3:41 AM;m.foysal;Valid email address is required.jpg;https://jira.a1qa.com/secure/attachment/2383634/Valid+email+address+is+required.jpg","13/Jul/23 3:41 AM;m.foysal;valid email address is required.mp4;https://jira.a1qa.com/secure/attachment/2383633/valid+email+address+is+required.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfsh3:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+"Connect: Contact: The empty first name field does not show an error message ""Frist name is required"" when clicking on the send message button",QATC-809729,3476175,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 3:17 AM,13/Jul/23 3:43 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/contact] ""
+ # Log in to this system
+ # Click on Connect and then Click on Contact
+ # Fill up the contact form without First name
+ # Click on Send Message button
+ # Observed the result
+
+*Actual Result:* The empty first name field does not show an error message ""Frist name is required"" when clicking on the send message button.
+
+*Expected Result:* The first name field should display an error message "" First name is required"" when Clicking on the send message button.
+
+ 
+
+*Additional Information:* The (last name field will display the error message ""Last name is required"", Email field will display the error message ""Valid Email is required"" , Subject field will display the error message ""Subject is required"" and the Message field will display the error message ""Please leave me a message"" ) when clicking on the Send message button with empty field.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 3:17 AM;m.foysal;First name error message.mp4;https://jira.a1qa.com/secure/attachment/2383620/First+name+error+message.mp4","13/Jul/23 3:43 AM;m.foysal;first name is required.jpg;https://jira.a1qa.com/secure/attachment/2383636/first+name+is+required.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfsf3:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Connect: Contact: The last name text field contain only 8 alpha types characters instead of 48,QATC-809723,3476168,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 2:48 AM,13/Jul/23 2:48 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/contact] ""
+ # Log in to this system
+ # Click on Connect and then click on Contact
+ # Input any alpha types of characters on the last name field
+ # Observed the result
+
+*Actual Result:* The last name text field contains only 8 alpha types characters instead of 48
+
+*Expected Result:* The last name text field should contain 48 alpha-type characters.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 2:48 AM;m.foysal;last name text field.jpg;https://jira.a1qa.com/secure/attachment/2383611/last+name+text+field.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfsdj:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Connect: Contact: The search bar text area at the bottom is not displayed correctly it's hidden by the header color,QATC-809712,3476143,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 2:00 AM,14/Jul/23 3:14 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/contact] ""
+ # Log in to this system
+ # Click on Connect and then click on Contact
+ # Observed the search bar
+
+*Actual Result:* The search bar text area at the bottom is not displayed correctly it's hidden by the header color.
+
+*Expected Result:* The search bar text area should be displayed properly.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 1:59 AM;m.foysal;Search bar 1.mp4;https://jira.a1qa.com/secure/attachment/2383597/Search+bar+1.mp4","14/Jul/23 3:01 AM;m.foysal;Search bar error.mp4;https://jira.a1qa.com/secure/attachment/2384398/Search+bar+error.mp4","14/Jul/23 3:14 AM;m.foysal;Search bar reload.mp4;https://jira.a1qa.com/secure/attachment/2384406/Search+bar+reload.mp4",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfs7z:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"14/Jul/23 3:14 AM;m.foysal;*Additional Information:*  This issue is same for the (Mini studio sessions, Mini  Outdoor studio sessions, Standard Sessions) Book Sessions and Book Information page.
+
+[^Search bar reload.mp4];;;"
+Connect: Contact: The page title is displayed on the right side instead of the center,QATC-809708,3476137,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 1:46 AM,13/Jul/23 1:46 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/contact] ""
+ # Log in to this system
+ # Click on Connect then click on Contact
+ # Observed the page title
+
+*Actual Result:* The page title is displayed on the right side instead of the center
+
+*Expected Result:* The page title should be displayed in the center of the page","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 1:46 AM;m.foysal;Connect page title.jpg;https://jira.a1qa.com/secure/attachment/2383593/Connect+page+title.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfs6n:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+"Sessions: The navigation menu text color does not change when another page is opened, it remains in the ""home"" menu",QATC-809706,3476134,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 1:33 AM,13/Jul/23 1:33 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/] ""
+ # Log in to this system
+ # Observed the Home page with the navigation color
+ # Click on Sessions
+ # Observed the result
+
+*Actual Result:* The navigation menu text color does not change when another page is opened, it remains in the ""home"" menu.
+
+{*}Expected Result{*}: The navigation menu text color should be changed when another page is opened. The 'Home' menu color will be the same as any other unselected menu color.
+
+*Additional Information:* This issue is the same for Work, Contact, and Instaolseon menu.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 1:32 AM;m.foysal;Navigation color.mp4;https://jira.a1qa.com/secure/attachment/2383590/Navigation+color.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfs5z:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Connect: Contact: The contact page disappeared the ""Sessions""  from the header navigation menu when it opens",QATC-809697,3476120,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 12:53 AM,13/Jul/23 12:53 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/contact] ""
+ # Log in to this system
+ # Click on Connect and then click on Contact
+ # Observed the Header
+ # Sessions is missing
+
+*Actual Result:* The contact page disappeared the ""Sessions""  from the header navigation menu when it opens.
+
+*Expected Result:* Sessions should be in the header navigation menu when the contact page is opened.
+
+*Additional Information:* The footer section has also disappeared from the contact page.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 12:52 AM;m.foysal;Contact disappeared.mp4;https://jira.a1qa.com/secure/attachment/2383578/Contact+disappeared.mp4","13/Jul/23 12:52 AM;m.foysal;Contact footer.mp4;https://jira.a1qa.com/secure/attachment/2383577/Contact+footer.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfs2v:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Connect: Philanthropy: Two articles are missing also the displaying format is not correct,QATC-809690,3476111,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 12:31 AM,13/Jul/23 12:31 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/philanthropy] ""
+ # Log in to this system
+ # Click on Connect then click on Philanthropy
+ # Observed the paragraph and articles
+
+*Actual Result:* Two articles are missing also the displaying format is not correct.
+
+*Expected Result:* Two articles should be displayed also the displaying format should be correct as per requirements. ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 12:29 AM;m.foysal;Philanthrothy-1.jpg;https://jira.a1qa.com/secure/attachment/2383570/Philanthrothy-1.jpg","13/Jul/23 12:29 AM;m.foysal;philanthrothy-2.jpg;https://jira.a1qa.com/secure/attachment/2383569/philanthrothy-2.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfs0v:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Connect: Clients: The clients gallery image displayed the name "" Jennifer Harris"" instead of ""Yasmine Ghaemi""",QATC-809682,3476101,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,13/Jul/23 12:03 AM,13/Jul/23 12:03 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/clients] ""
+ # Log in to this system
+ # Click on Connect and then click on Clients
+ # Check the clients gallery 16th position photo
+ # observed the result
+
+Actual Result: The clients gallery image displayed the name "" Jennifer Harris"" instead of ""Yasmine Ghaemi"".
+
+*Expected Result:* The  displayed image name should be ""Yasmine Ghaemi""
+
+*Additional Information:* The position of the image should be on the 15th position.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"13/Jul/23 12:03 AM;m.foysal;Wrong image name.jpg;https://jira.a1qa.com/secure/attachment/2383552/Wrong+image+name.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfryv:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+"Connect: Clients: The image ""Alex Ching"" reloads a new link on the current page instead of reloading the current page when clicking on it",QATC-809659,3476063,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 11:08 PM,12/Jul/23 11:08 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/clients] ""
+ # Log in to this systems
+ # Click on Connect then click on Clients
+ # Click on the image ""Alex Ching""
+ # Observed the result
+
+{*}Actual Result{*}: The image ""Alex Ching"" reloads a new link on the current page instead of reloading the current page when clicking on it.
+
+*Expected Result:* The image ""Alex Ching"" reload the current page without any new link when clicking on it. It should display the clients gallery page.
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 11:07 PM;m.foysal;Alex ching new link redirect.jpg;https://jira.a1qa.com/secure/attachment/2383508/Alex+ching+new+link+redirect.jpg","12/Jul/23 11:07 PM;m.foysal;Alex ching.mp4;https://jira.a1qa.com/secure/attachment/2383507/Alex+ching.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfrqf:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Connect: Clients: The clients gallery is displayed 28 photos instead of 30,QATC-809655,3476042,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 10:38 PM,12/Jul/23 10:38 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/clients] ""
+ # Log in to this system
+ # Click on Connect and then click on Clients
+ # Observed the client gallery there are 28 photos
+
+*Actual Result:* The clients gallery is displayed 28 photos instead of 30.
+
+*Expected Result:* The client's gallery should be displayed 30 photos according to the order.
+
+*Additional Information:* The image 21th position *""Laser Performance""* should have link ""http://laserperformance.com"" and *""MAM""* 29 position also should have link ""http://www.mambaby.com""","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 10:35 PM;m.foysal;all clients photos.mp4;https://jira.a1qa.com/secure/attachment/2383492/all+clients+photos.mp4","12/Jul/23 10:34 PM;m.foysal;missing image 1.jpg;https://jira.a1qa.com/secure/attachment/2383494/missing+image+1.jpg","12/Jul/23 10:34 PM;m.foysal;missing image 2.jpg;https://jira.a1qa.com/secure/attachment/2383493/missing+image+2.jpg",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfrlr:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Connect: Clients: The image 'Max & Tara Axler' is displayed in 12th position instead of the third position.,QATC-809650,3476030,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 10:19 PM,12/Jul/23 10:19 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/clients] ""
+ # Log in to this system
+ # Click on Connects then click on Clients
+ # Observed the image order 
+
+*Actual Result:* The image 'Max & Tara Axler' is displayed in 12th position instead of the third position.
+
+*Expected result:* The image 'Max & Tara Axler' should be displayed in the third position. After this image ""Ashley & Rich Baccari"" to ""Pedro Castillo"" displayed by ordering 4th position to 9.
+
+*Additional Information:* The image *""Alex Ching""* is not in the correct position it should be in the 10th position then *""Kate Caleaves""* , *""Caleb Colpitts""* and  *""Jennaca Davies""* displayed by ordering 11th to 13th position. 14th position image should be *""Emcor""* 15th {*}""Yasmine Ghaemi""{*}, 16th should be *""Emily Habansky""* , 17th *""Yaungeun Han""* 18th *""Jennifer Harris""* 19th *""Kong Crossfit""* 20th {*}""Nikki Thiess-Kusiak""{*}, 21th *""Laser Performance""* 22th {*}""Leblon""{*}, 23th {*}""Patricia Leunis""{*}, 24th {*}""Lilo Studio""{*}, 25th \{*}""Lauren Lucia""{*}, 26th *""Lucienne Von Doz""* , 27th  \{*}""Ema Ishii""{*}, 28th \{*}""Maclaren""{*},29th {*}""MAM""{*}, 30th {*}""Marta Mattsson""{*}.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 10:18 PM;m.foysal;Connect clients all image ordered.mp4;https://jira.a1qa.com/secure/attachment/2383479/Connect+clients+all+image+ordered.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfrjb:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Connect: Clients: The image 'kong crossfit' reloading the current page instead of opening a new tab when clicking on it,QATC-809628,3475975,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 9:11 PM,12/Jul/23 9:11 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/clients] ""
+ # Click on Connects then click on Clients
+ # Click on the image "" Kong Crossfit""
+ # Observed the result
+
+*Actual Result:* The image 'kong crossfit' reloading the current page instead of opening a new tab when clicking on it.
+
+*Expected Result:* The image  'kong crossfit' should open a new tab when clicking on it,","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 9:11 PM;m.foysal;Clients photo not open a new tab.mp4;https://jira.a1qa.com/secure/attachment/2383441/Clients+photo+not+open+a+new+tab.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfr73:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Connect: Clients:  The image ""Caleb colpitts"" redirects ""Kate Cleaves"" link instead of its own link when clicking on it.",QATC-809620,3475936,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 8:32 PM,12/Jul/23 8:32 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/connect/clients] ""
+ # Log in to this system
+ # Click on Connects and then click on Clients
+ # Click on the image Caleb colpitts
+ # Observed the result
+
+*Actual Result:* The image ""Caleb colpitts"" redirects ""Kate Cleaves"" link instead of its own link when clicking on it.
+
+*Expected result:* The image ""Caleb colpitts"" should redirect this link ""[https://www.calebcolpitts.com/] "" when clicking on it.
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 8:32 PM;m.foysal;Connect clients.jpg;https://jira.a1qa.com/secure/attachment/2383423/Connect+clients.jpg","12/Jul/23 8:31 PM;m.foysal;Connect clients.mp4;https://jira.a1qa.com/secure/attachment/2383424/Connect+clients.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfqyf:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Connect: Clients: The page title is displayed clients instead of clients gallery,QATC-809616,3475872,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 7:39 PM,12/Jul/23 7:39 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Click On ""https://photostudio.demohoster.com/connect/clients""
+ # Log in to this system
+ # Click on Connect and then click on Clients
+ # Observed the page title 
+
+*Actual Result:* The page title is displayed clients instead of clients gallery.
+
+*Expected Result:* The page title should be displayed as Clients Gallery.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 7:39 PM;m.foysal;Clients gallery 1.jpg;https://jira.a1qa.com/secure/attachment/2383404/Clients+gallery+1.jpg","12/Jul/23 7:39 PM;m.foysal;clients gallery 2.jpg;https://jira.a1qa.com/secure/attachment/2383403/clients+gallery+2.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfqmn:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Connect: Bio & Press: There is no photo and text displayed about Greg's,QATC-809613,3475866,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 7:31 PM,12/Jul/23 7:31 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Click On "" https://photostudio.demohoster.com/connect/biopress""
+ # Log in to this system
+ # Click on Connect then click on Bio & Press
+ # Observed the result
+
+*Actual Result:* There is no photo and text displayed about Greg's
+
+*Expect Result:* There should be a photo of Greg's also about  Greg's life and his articles in the press. Under the text, there should be two press article links. ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 7:31 PM;m.foysal;bio and press 2.jpg;https://jira.a1qa.com/secure/attachment/2383398/bio+and+press+2.jpg","12/Jul/23 7:31 PM;m.foysal;Bio and Press.mp4;https://jira.a1qa.com/secure/attachment/2383396/Bio+and+Press.mp4","12/Jul/23 7:31 PM;m.foysal;bio and press1.jpg;https://jira.a1qa.com/secure/attachment/2383397/bio+and+press1.jpg",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfqlb:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+"Work: Motion: The submenu ""motion"" is not open a new page when clicking on it",QATC-809497,3475507,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 2:56 AM,12/Jul/23 2:56 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Click On "" [https://photostudio.demohoster.com/work/travel/2#] ""
+ # Log in to this system
+ # Click on work then click on motion
+ # Observed the result
+
+*Actual Result:* The submenu ""motion"" is not open a new page when clicking on it.
+
+*Expected Result:* The submenu should be open a page when clicking on it. Page title should be Motion Gallery. There are two pages containing 12 photos except for the 2th page which contains only 6 photos.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 2:55 AM;m.foysal;Motion not working.mp4;https://jira.a1qa.com/secure/attachment/2383009/Motion+not+working.mp4","12/Jul/23 2:52 AM;m.foysal;Motion.jpg;https://jira.a1qa.com/secure/attachment/2383010/Motion.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfogv:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Work: Travel: The page title displayed in the right corner instead of center the page,QATC-809494,3475502,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 2:34 AM,12/Jul/23 2:34 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"Steps to reproduce:
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on Work then click on travel
+ # Observed the page title
+
+
+Actual Result: The page title displayed in the right corner instead of center the page.
+
+Expected Result: The page title should be displayed in the center of the page.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 2:34 AM;m.foysal;travel page title.jpg;https://jira.a1qa.com/secure/attachment/2383004/travel+page+title.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfofr:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+work: Travel: Some of the photos don't show the expand option top of the right corner when clicking on it,QATC-809490,3475495,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 2:23 AM,12/Jul/23 2:23 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on travel
+ # Click on any travel gallery photos
+ # Observed the result there is no expand option on top of the right on the image.
+
+
+*Actual Result:* Some of the photos don't show the expand option top of the right corner when clicking on it.
+
+*Expected Result:* Every photo should have the expand option top of the right corner when clicking on it.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 2:23 AM;m.foysal;travel expand image option.mp4;https://jira.a1qa.com/secure/attachment/2382998/travel+expand+image+option.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfoe7:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+"Work: Travel: Preview photos display a tooltip ""Travel"" instead of the photo number",QATC-809489,3475493,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 2:14 AM,12/Jul/23 2:14 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on travel
+ # Put the mouse cursor on any photos of the travel gallery
+ # Observed the result
+
+*Actual Result:* Preview photos display a tooltip ""Travel"" instead of the photo number.
+
+*Expected Result:* Preview photos should be displayed in a tooltip of the photo number.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 2:14 AM;m.foysal;Travel tooltip.mp4;https://jira.a1qa.com/secure/attachment/2382997/Travel+tooltip.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfodr:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Work: Travel: Photo's grey frame is displayed as light gray instead of white when the cursor over,QATC-809487,3475491,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 2:08 AM,12/Jul/23 2:08 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on travel
+ # Cursor over any photos in the travel gallery
+ # Observed the result
+
+
+*Actual Result:* Photo's grey frame is displayed as light gray instead of white when the cursor over.
+
+*Expected Result:* The Photo's grey frame should be displayed as white when the cursor over.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 2:08 AM;m.foysal;travel hover effect.mp4;https://jira.a1qa.com/secure/attachment/2382995/travel+hover+effect.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfodb:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Work: Lifestyle: The page title is displayed in the right corner instead of the center of the page,QATC-809485,3475485,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 1:57 AM,12/Jul/23 1:57 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on lifestyle
+ # Observed the page title 
+
+
+*Actual Result:* The page title is displayed in the right corner instead of the center of the page.
+
+*Expected Result:* The Page title should be displayed in the center of the page.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 1:57 AM;m.foysal;lifestyle page title.jpg;https://jira.a1qa.com/secure/attachment/2382993/lifestyle+page+title.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfobz:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Work: Lifestyle: Some of the photos don't show the expand option top of the right corner when clicking on it,QATC-809484,3475484,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 1:52 AM,12/Jul/23 1:52 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on Work and then click on lifestyle
+ # Click on any lifestyle gallery photos and then change the photo using the left and right arrow keys on keyboard
+ # Observed the result
+
+
+*Actual Result:* Some of the photos don't show the expand option top of the right corner when clicking on it.
+
+*Expected Result:* Every photo should have the expand option top of the right corner when clicking on it.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 1:52 AM;m.foysal;lifestyle expand option.mp4;https://jira.a1qa.com/secure/attachment/2382992/lifestyle+expand+option.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfobr:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Work: Lifestyle: There is an image is not displayed on the 5th page,QATC-809480,3475477,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 1:42 AM,12/Jul/23 1:42 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click work then click on the 5th page
+ # Observed the page
+ # There is a blank image
+
+
+*Actual Result:* There is an image is not displayed on the 5th page.
+
+*Expected Result:* The image should be displayed on the 5th page.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 1:37 AM;m.foysal;lifestyle image not displayed.jpg;https://jira.a1qa.com/secure/attachment/2382984/lifestyle+image+not+displayed.jpg","12/Jul/23 1:40 AM;m.foysal;lifestyle image not showing.mp4;https://jira.a1qa.com/secure/attachment/2382983/lifestyle+image+not+showing.mp4","12/Jul/23 1:42 AM;m.foysal;requirement image lifestyle.jpg;https://jira.a1qa.com/secure/attachment/2382982/requirement+image+lifestyle.jpg",,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfoa7:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+Work: Lifestyle: Multiple photos are not opened under the image when clicked on each  3 number pages photos also there is no expand image and close image option,QATC-809478,3475474,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 1:31 AM,12/Jul/23 1:31 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on lifestyle
+ # Open page 3
+ # Click  any  image on page 3
+ # Observed the result
+
+
+*Actual Result:* Multiple photos are not opened under the image when clicked on each  3 number pages photos also there is no expand image and close image option.
+
+*Expected Result:* Multiple photos should be opened under the image when clicked on each  3 number pages photos also there should be the expanded image and close image option.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 1:31 AM;m.foysal;multiple image under the lifestyle.mp4;https://jira.a1qa.com/secure/attachment/2382979/multiple+image+under+the+lifestyle.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfo9j:",9223372036854775807,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,
+"Work: Lifestyle: Lifestyle gallery: Preview photos display a tooltip ""lifestyle"" instead of the photo number ",QATC-809475,3475469,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 1:22 AM,12/Jul/23 1:22 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on lifestyle
+ # Put the cursor on any lifestyle image
+ # Observed the result
+
+
+*Actual Result:* Preview photos display a tooltip ""lifestyle"" instead of the photo number 
+
+{*}Expected Resul{*}t{*}:{*}  The preview photos should be displayed the photo number when the cursor on it.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 1:22 AM;m.foysal;lifestyle tool tip.mp4;https://jira.a1qa.com/secure/attachment/2382975/lifestyle+tool+tip.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfo8f:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+Work: Lifestyle: Lifestyle gallery: Photo's grey frame is displayed as light gray instead of white when the cursor is over,QATC-809474,3475466,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 1:15 AM,12/Jul/23 2:28 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on lifestyle
+ # Hover over the cursor on the lifestyle gallery
+ # Observe the result
+
+
+*Actual Result:*  Photo's grey frame is displayed as light gray instead of white when the cursor is over.
+
+*Expected Result:*  Photo's grey frame should be displayed as white when the cursor is over.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 1:15 AM;m.foysal;lifestyle hover effect.mp4;https://jira.a1qa.com/secure/attachment/2382973/lifestyle+hover+effect.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfo7r:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,"12/Jul/23 2:28 AM;m.foysal;# QATC-809474 &
+ # QATC-809472  is the same bug. for my system error/Jira issue, this bug is created two times.;;;"
+Work: Lifestyle: Lifestyle gallery: Photo's grey frame is displayed as light gray instead of white when the cursor is over,QATC-809472,3475463,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 1:13 AM,12/Jul/23 1:13 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"Steps to reproduce:
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on lifestyle
+ # Hover over the cursor on the lifestyle gallery
+ # Observe the result
+
+
+Actual Result:  Photo's grey frame is displayed as light gray instead of white when the cursor is over.
+
+Expected Result:  Photo's grey frame should be displayed as white when the cursor is over.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 1:12 AM;m.foysal;lifestyle hover effect.mp4;https://jira.a1qa.com/secure/attachment/2382971/lifestyle+hover+effect.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfo73:",9223372036854775807,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,
+Work: Portrait: The Page title is displayed in the right corner instead of the center of the page,QATC-809471,3475462,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 1:04 AM,12/Jul/23 1:04 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" https://photostudio.demohoster.com/work/portrait ""
+ # Log in to this system
+ # Click on work then click on the portrait
+ # Observe the page title
+
+*Actual Result:* The page title is displayed in the right corner instead of the center of the page.
+
+*Expected Result:* The page title should be displayed in the center of the page. ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 1:04 AM;m.foysal;portrait page title.jpg;https://jira.a1qa.com/secure/attachment/2382967/portrait+page+title.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfo6v:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Work: Portrait: Some of the photos don't show the expand option top of the right corner when clicking on it,QATC-809468,3475458,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 12:56 AM,12/Jul/23 12:56 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/work/portrait] ""
+ # Log in to this system
+ # Click on work then portrait
+ # Click on any image then change them one by one the image using the left/right arrow key
+ # Observed the result
+
+*Actual Result:* Some of the photos don't show the expand option top of the right corner when clicking on it
+
+{*}Expected Result{*}: Every photo should have the expand option top of the right corner.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 12:55 AM;m.foysal;Potrait Expand option.mp4;https://jira.a1qa.com/secure/attachment/2382963/Potrait+Expand+option.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfo5z:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Work: Portrait: Portrait Gallery: The photo 29.jpg & 30.jpg is not in the right order ,QATC-809465,3475455,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 12:40 AM,12/Jul/23 12:40 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/work/portrait] ""
+ # Log in to this system
+ # Click on Work then click on portrait
+ # Go to page 3
+ # Observed this page 29 & 30 number photos
+
+*Actual Result:* The photo 29.jpg & 30.jpg is not in the right order .
+
+*Expected Result:*  The photo 29th should in 30th position and the photo 30th should be in 29th position. ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 12:39 AM;m.foysal;portrait gallery requirement.jpg;https://jira.a1qa.com/secure/attachment/2382957/portrait+gallery+requirement.jpg","12/Jul/23 12:39 AM;m.foysal;portrait gallery wrong order.jpg;https://jira.a1qa.com/secure/attachment/2382956/portrait+gallery+wrong+order.jpg",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfo5b:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
+"Work: Portrait: Preview photos display a tooltip ""portrait"" instead of the photo number ",QATC-809463,3475452,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 12:25 AM,12/Jul/23 12:25 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/work/portrait] ""
+ # Click on Work then click on portrait
+ # Put the Cursor on an image
+ # Observed the result
+
+*Actual Result:* Preview photos display a tooltip ""portrait"" instead of the photo number .
+
+*Expected Result:* Preview photos should be display a tooltip of the photo number.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 12:24 AM;m.foysal;portrait tool tip.mp4;https://jira.a1qa.com/secure/attachment/2382951/portrait+tool+tip.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfo4n:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+Work: Portrait: The photo's grey frame is displayed as light gray instead of white when the cursor is over,QATC-809461,3475450,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 12:16 AM,12/Jul/23 12:16 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ #  Go to ""[https://photostudio.demohoster.com/] ""
+ # Log in to this system
+ # Click ""work"" then click on the portrait
+ # Hover over all the image
+ # Observed the Result
+
+*Actual Result:*  The photo's grey frame is displayed as light gray instead of white when the cursor is over.
+
+*Expected Result:*  The photo's grey frame should be displayed as white when the cursor is over.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 12:16 AM;m.foysal;border color.mp4;https://jira.a1qa.com/secure/attachment/2382947/border+color.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfo47:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Home: Demo: The preview photos are not links to corresponding galleries,QATC-809458,3475445,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,12/Jul/23 12:02 AM,13/Jul/23 2:08 AM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to ""[https://photostudio.demohoster.com/] ""
+ # Log in to this system
+ # click on the demo picture
+ # observed the result
+ # Only show on the main page not redirect to the corresponding galleries
+
+*Actual Result:* The preview photos are not links to corresponding galleries.
+
+*Expected Result:* The preview photos should be linked to the corresponding galleries.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"12/Jul/23 12:02 AM;m.foysal;preview image links add.jpg;https://jira.a1qa.com/secure/attachment/2382941/preview+image+links+add.jpg","12/Jul/23 12:01 AM;m.foysal;preview image links add.mp4;https://jira.a1qa.com/secure/attachment/2382942/preview+image+links+add.mp4",,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,"0|idfo33:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,"13/Jul/23 2:08 AM;m.foysal;Summary: The preview photos are not redirecting to the corresponding galleries when clicking on specific preview photos;;;"
+Header: The navigation menu & search bar is not displayed in the top right corner of the header,QATC-809443,3475418,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,11/Jul/23 10:20 PM,11/Jul/23 10:20 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/] ""
+ # Log in to this system
+ # Observed the header navigation menu and search bar
+ # Alignment is not correct
+
+*Actual Result:* The navigation menu & search bar is not displayed in the top right corner of the header.
+
+*Expected Result:* The navigation menu & search bar should be displayed in the top right corner of the header.
+
+ ","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"11/Jul/23 10:20 PM;m.foysal;Header-3.jpg;https://jira.a1qa.com/secure/attachment/2382913/Header-3.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfnx3:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Header paragraph: The header paragraph is not displayed top of the left corner of the screen  under the header title/logo,QATC-809442,3475415,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,11/Jul/23 10:13 PM,11/Jul/23 10:13 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/] ""
+ # Log in to this site
+ # Observe the Header title/logo  
+ # The paragraph is not in the top left corner under the header
+
+*Actual Result:* The header paragraph is not displayed top of the left corner of the screen under the header title/logo.
+
+*Expected Result:* The header paragraph should be displayed top of the left corner of the screen under the header title/logo.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"11/Jul/23 10:13 PM;m.foysal;Header-2.jpg;https://jira.a1qa.com/secure/attachment/2382904/Header-2.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfnwv:",9223372036854775807,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,
+Header: The header logo /title is not displayed top of the left corner of the header also missing a camera icon with this,QATC-809441,3475412,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,11/Jul/23 10:05 PM,11/Jul/23 10:05 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/] ""
+ # Login to this site
+ # Observed the header title/image
+ # A camera icon is missing alignment and is not in the correct position
+
+*Actual Result:*  The header logo/title is not displayed top of the left corner of the header also missing a camera icon with this.
+
+{*}Expected Result{*}:  The header logo/title should be displayed top of the left corner of the header and also display a camera icon with this.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"11/Jul/23 10:04 PM;m.foysal;Header icon.jpg;https://jira.a1qa.com/secure/attachment/2382898/Header+icon.jpg",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfnw7:",9223372036854775807,,,,,,,3-Average,,,,,,,,,,,,,,,,,,
+ Header: The header is not  fixed on the top of each page when changing the location and scrolling down,QATC-809439,3475406,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m.foysal,m.foysal,11/Jul/23 9:53 PM,11/Jul/23 9:53 PM,17/Nov/23 7:37 PM,,1.0,GregOlsen.PhotoStudio,,0,"*Steps to reproduce:*
+ # Go to "" [https://photostudio.demohoster.com/] ""
+ # Login to this site
+ # Scroll down to the current page
+ # Observed the Header 
+ # Changing the location also scroll down 
+ # Observed the result Header goes up with the page
+
+*Actual Result:* The header is not  fixed on the top of each page when changing the location and scrolling down.
+
+*Expected Result:* The header should be fixed on the top of each page when changing the location and scrolling down.","*OS:* Win 11 pro, 64-bit, 21h2
+
+*Browser:* Google Chrome, Version 114.0.5735.134 (Official Build) (64-bit) ",,,,,,,,Leads and Reporter only,"11/Jul/23 9:52 PM;m.foysal;Header-1.mp4;https://jira.a1qa.com/secure/attachment/2382894/Header-1.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,"0|idfnuv:",9223372036854775807,,,,,,,2-Major,,,,,,,,,,,,,,,,,,
